@@ -1,0 +1,2505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="cbx_new_timeSrc.Items" xml:space="preserve">
+    <value>Sensor采集时间</value>
+  </data>
+  <data name="cbx_new_timeSrc.Items1" xml:space="preserve">
+    <value>网关的系统时间</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cbx_new_timeSrc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>780, 401</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cbx_new_timeSrc.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="cbx_new_timeSrc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cbx_new_timeSrc.TabIndex" type="System.Int32, mscorlib">
+    <value>552</value>
+  </data>
+  <data name="&gt;&gt;cbx_new_timeSrc.Name" xml:space="preserve">
+    <value>cbx_new_timeSrc</value>
+  </data>
+  <data name="&gt;&gt;cbx_new_timeSrc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_new_timeSrc.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_new_timeSrc.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1065, 623</value>
+  </data>
+  <data name="button3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 28</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>532</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>删除所有报警器数据</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="tbx_new_alert.Location" type="System.Drawing.Point, System.Drawing">
+    <value>780, 343</value>
+  </data>
+  <data name="tbx_new_alert.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_new_alert.MaxLength" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tbx_new_alert.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_new_alert.TabIndex" type="System.Int32, mscorlib">
+    <value>531</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_alert.Name" xml:space="preserve">
+    <value>tbx_new_alert</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_alert.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_alert.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_alert.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="label20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>702, 346</value>
+  </data>
+  <data name="label20.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="label20.TabIndex" type="System.Int32, mscorlib">
+    <value>530</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>报警间隔</value>
+  </data>
+  <data name="&gt;&gt;label20.Name" xml:space="preserve">
+    <value>label20</value>
+  </data>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="tbx_new_carousel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1116, 287</value>
+  </data>
+  <data name="tbx_new_carousel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_new_carousel.MaxLength" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tbx_new_carousel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_new_carousel.TabIndex" type="System.Int32, mscorlib">
+    <value>529</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_carousel.Name" xml:space="preserve">
+    <value>tbx_new_carousel</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_carousel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_carousel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_carousel.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="label21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1039, 291</value>
+  </data>
+  <data name="label21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="label21.TabIndex" type="System.Int32, mscorlib">
+    <value>528</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>轮播间隔</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="tbx_carousel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 343</value>
+  </data>
+  <data name="tbx_carousel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_carousel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_carousel.TabIndex" type="System.Int32, mscorlib">
+    <value>513</value>
+  </data>
+  <data name="&gt;&gt;tbx_carousel.Name" xml:space="preserve">
+    <value>tbx_carousel</value>
+  </data>
+  <data name="&gt;&gt;tbx_carousel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_carousel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_carousel.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="btnRefresh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 12</value>
+  </data>
+  <data name="btnRefresh.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btnRefresh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 28</value>
+  </data>
+  <data name="btnRefresh.TabIndex" type="System.Int32, mscorlib">
+    <value>527</value>
+  </data>
+  <data name="btnRefresh.Text" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Name" xml:space="preserve">
+    <value>btnRefresh</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnRefresh.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 13</value>
+  </data>
+  <data name="comboBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>279, 23</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>525</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="cbx_new_bps.Items" xml:space="preserve">
+    <value>50kbps2gfsk</value>
+  </data>
+  <data name="cbx_new_bps.Items1" xml:space="preserve">
+    <value>5kbpsLrm</value>
+  </data>
+  <data name="cbx_new_bps.Items2" xml:space="preserve">
+    <value>38p4kbpsWhiten</value>
+  </data>
+  <data name="cbx_new_bps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1116, 229</value>
+  </data>
+  <data name="cbx_new_bps.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="cbx_new_bps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 23</value>
+  </data>
+  <data name="cbx_new_bps.TabIndex" type="System.Int32, mscorlib">
+    <value>524</value>
+  </data>
+  <data name="&gt;&gt;cbx_new_bps.Name" xml:space="preserve">
+    <value>cbx_new_bps</value>
+  </data>
+  <data name="&gt;&gt;cbx_new_bps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_new_bps.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_new_bps.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="label36.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 292</value>
+  </data>
+  <data name="label36.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="label36.TabIndex" type="System.Int32, mscorlib">
+    <value>522</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>传输速率</value>
+  </data>
+  <data name="&gt;&gt;label36.Name" xml:space="preserve">
+    <value>label36</value>
+  </data>
+  <data name="&gt;&gt;label36.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label36.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label36.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="tbx_new_pattern.Location" type="System.Drawing.Point, System.Drawing">
+    <value>780, 229</value>
+  </data>
+  <data name="tbx_new_pattern.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_new_pattern.MaxLength" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tbx_new_pattern.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_new_pattern.TabIndex" type="System.Int32, mscorlib">
+    <value>520</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_pattern.Name" xml:space="preserve">
+    <value>tbx_new_pattern</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_pattern.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_pattern.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_pattern.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="label19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>702, 236</value>
+  </data>
+  <data name="label19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+    <value>519</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>工作模式</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="tbx_alert.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 399</value>
+  </data>
+  <data name="tbx_alert.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_alert.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_alert.TabIndex" type="System.Int32, mscorlib">
+    <value>517</value>
+  </data>
+  <data name="&gt;&gt;tbx_alert.Name" xml:space="preserve">
+    <value>tbx_alert</value>
+  </data>
+  <data name="&gt;&gt;tbx_alert.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_alert.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_alert.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="label33.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 402</value>
+  </data>
+  <data name="label33.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="label33.TabIndex" type="System.Int32, mscorlib">
+    <value>518</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>报警间隔</value>
+  </data>
+  <data name="&gt;&gt;label33.Name" xml:space="preserve">
+    <value>label33</value>
+  </data>
+  <data name="&gt;&gt;label33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label33.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label33.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="label32.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 513</value>
+  </data>
+  <data name="label32.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 15</value>
+  </data>
+  <data name="label32.TabIndex" type="System.Int32, mscorlib">
+    <value>516</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>RAM H</value>
+  </data>
+  <data name="&gt;&gt;label32.Name" xml:space="preserve">
+    <value>label32</value>
+  </data>
+  <data name="&gt;&gt;label32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label32.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label32.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="tbx_ramH.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 511</value>
+  </data>
+  <data name="tbx_ramH.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_ramH.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_ramH.TabIndex" type="System.Int32, mscorlib">
+    <value>514</value>
+  </data>
+  <data name="&gt;&gt;tbx_ramH.Name" xml:space="preserve">
+    <value>tbx_ramH</value>
+  </data>
+  <data name="&gt;&gt;tbx_ramH.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_ramH.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_ramH.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="label31.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 348</value>
+  </data>
+  <data name="label31.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="label31.TabIndex" type="System.Int32, mscorlib">
+    <value>515</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>轮播间隔</value>
+  </data>
+  <data name="&gt;&gt;label31.Name" xml:space="preserve">
+    <value>label31</value>
+  </data>
+  <data name="&gt;&gt;label31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label31.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label31.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="tbx_pattern.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 287</value>
+  </data>
+  <data name="tbx_pattern.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_pattern.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_pattern.TabIndex" type="System.Int32, mscorlib">
+    <value>511</value>
+  </data>
+  <data name="&gt;&gt;tbx_pattern.Name" xml:space="preserve">
+    <value>tbx_pattern</value>
+  </data>
+  <data name="&gt;&gt;tbx_pattern.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_pattern.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_pattern.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 291</value>
+  </data>
+  <data name="label18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>512</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>工作模式</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>910, 537</value>
+  </data>
+  <data name="button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 28</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>503</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>修改参数</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="tbx_new_hwRevision.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1116, 70</value>
+  </data>
+  <data name="tbx_new_hwRevision.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_new_hwRevision.MaxLength" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="tbx_new_hwRevision.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_new_hwRevision.TabIndex" type="System.Int32, mscorlib">
+    <value>500</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_hwRevision.Name" xml:space="preserve">
+    <value>tbx_new_hwRevision</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_hwRevision.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_hwRevision.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_hwRevision.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1038, 73</value>
+  </data>
+  <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>499</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>硬件版本</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="tbx_new_category.Location" type="System.Drawing.Point, System.Drawing">
+    <value>780, 171</value>
+  </data>
+  <data name="tbx_new_category.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_new_category.MaxLength" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tbx_new_category.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_new_category.TabIndex" type="System.Int32, mscorlib">
+    <value>498</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_category.Name" xml:space="preserve">
+    <value>tbx_new_category</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_category.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_category.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_category.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="tbx_new_customer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>780, 119</value>
+  </data>
+  <data name="tbx_new_customer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_new_customer.MaxLength" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tbx_new_customer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_new_customer.TabIndex" type="System.Int32, mscorlib">
+    <value>497</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_customer.Name" xml:space="preserve">
+    <value>tbx_new_customer</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_customer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_customer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_customer.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>718, 176</value>
+  </data>
+  <data name="label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 15</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>496</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>分类码</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>718, 123</value>
+  </data>
+  <data name="label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 15</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>495</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>客户码</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="tbx_new_interval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1116, 171</value>
+  </data>
+  <data name="tbx_new_interval.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_new_interval.MaxLength" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tbx_new_interval.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_new_interval.TabIndex" type="System.Int32, mscorlib">
+    <value>492</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_interval.Name" xml:space="preserve">
+    <value>tbx_new_interval</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_interval.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_interval.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_interval.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1038, 177</value>
+  </data>
+  <data name="label10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>493</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>时间间隔</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="tbx_new_id.Location" type="System.Drawing.Point, System.Drawing">
+    <value>780, 71</value>
+  </data>
+  <data name="tbx_new_id.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_new_id.MaxLength" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="tbx_new_id.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_new_id.TabIndex" type="System.Int32, mscorlib">
+    <value>490</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_id.Name" xml:space="preserve">
+    <value>tbx_new_id</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_id.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_id.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_id.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>750, 73</value>
+  </data>
+  <data name="label11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 15</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>491</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="tbx_new_debug.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1116, 122</value>
+  </data>
+  <data name="tbx_new_debug.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_new_debug.MaxLength" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tbx_new_debug.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_new_debug.TabIndex" type="System.Int32, mscorlib">
+    <value>488</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_debug.Name" xml:space="preserve">
+    <value>tbx_new_debug</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_debug.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_debug.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_debug.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1062, 125</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 15</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>489</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Debug</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 670</value>
+  </data>
+  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 28</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>487</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>上电自检</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="btnOpen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 12</value>
+  </data>
+  <data name="btnOpen.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btnOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 28</value>
+  </data>
+  <data name="btnOpen.TabIndex" type="System.Int32, mscorlib">
+    <value>486</value>
+  </data>
+  <data name="btnOpen.Text" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="&gt;&gt;btnOpen.Name" xml:space="preserve">
+    <value>btnOpen</value>
+  </data>
+  <data name="&gt;&gt;btnOpen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOpen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnOpen.ZOrder" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="tbx_swRevisionMSP432.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 117</value>
+  </data>
+  <data name="tbx_swRevisionMSP432.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_swRevisionMSP432.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_swRevisionMSP432.TabIndex" type="System.Int32, mscorlib">
+    <value>484</value>
+  </data>
+  <data name="&gt;&gt;tbx_swRevisionMSP432.Name" xml:space="preserve">
+    <value>tbx_swRevisionMSP432</value>
+  </data>
+  <data name="&gt;&gt;tbx_swRevisionMSP432.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_swRevisionMSP432.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_swRevisionMSP432.ZOrder" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 122</value>
+  </data>
+  <data name="label13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>485</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>软件版本</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="tbx_hwRevision.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 69</value>
+  </data>
+  <data name="tbx_hwRevision.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_hwRevision.MaxLength" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tbx_hwRevision.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_hwRevision.TabIndex" type="System.Int32, mscorlib">
+    <value>480</value>
+  </data>
+  <data name="&gt;&gt;tbx_hwRevision.Name" xml:space="preserve">
+    <value>tbx_hwRevision</value>
+  </data>
+  <data name="&gt;&gt;tbx_hwRevision.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_hwRevision.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_hwRevision.ZOrder" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 72</value>
+  </data>
+  <data name="label15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>481</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>硬件版本</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="tbx_category.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 230</value>
+  </data>
+  <data name="tbx_category.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_category.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_category.TabIndex" type="System.Int32, mscorlib">
+    <value>478</value>
+  </data>
+  <data name="&gt;&gt;tbx_category.Name" xml:space="preserve">
+    <value>tbx_category</value>
+  </data>
+  <data name="&gt;&gt;tbx_category.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_category.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_category.ZOrder" xml:space="preserve">
+    <value>69</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 237</value>
+  </data>
+  <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 15</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>479</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>分类码</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="tbx_debug.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 173</value>
+  </data>
+  <data name="tbx_debug.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_debug.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_debug.TabIndex" type="System.Int32, mscorlib">
+    <value>476</value>
+  </data>
+  <data name="&gt;&gt;tbx_debug.Name" xml:space="preserve">
+    <value>tbx_debug</value>
+  </data>
+  <data name="&gt;&gt;tbx_debug.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_debug.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_debug.ZOrder" xml:space="preserve">
+    <value>71</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>358, 177</value>
+  </data>
+  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 15</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>477</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Debug</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>72</value>
+  </data>
+  <data name="tbx_customer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 173</value>
+  </data>
+  <data name="tbx_customer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_customer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_customer.TabIndex" type="System.Int32, mscorlib">
+    <value>474</value>
+  </data>
+  <data name="&gt;&gt;tbx_customer.Name" xml:space="preserve">
+    <value>tbx_customer</value>
+  </data>
+  <data name="&gt;&gt;tbx_customer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_customer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_customer.ZOrder" xml:space="preserve">
+    <value>73</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 179</value>
+  </data>
+  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 15</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>475</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>客户码</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>74</value>
+  </data>
+  <data name="tbx_interval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 230</value>
+  </data>
+  <data name="tbx_interval.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_interval.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_interval.TabIndex" type="System.Int32, mscorlib">
+    <value>470</value>
+  </data>
+  <data name="&gt;&gt;tbx_interval.Name" xml:space="preserve">
+    <value>tbx_interval</value>
+  </data>
+  <data name="&gt;&gt;tbx_interval.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_interval.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_interval.ZOrder" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="label23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 235</value>
+  </data>
+  <data name="label23.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="label23.TabIndex" type="System.Int32, mscorlib">
+    <value>471</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>时间间隔</value>
+  </data>
+  <data name="&gt;&gt;label23.Name" xml:space="preserve">
+    <value>label23</value>
+  </data>
+  <data name="&gt;&gt;label23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label23.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
+    <value>76</value>
+  </data>
+  <data name="tbx_id.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 69</value>
+  </data>
+  <data name="tbx_id.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_id.MaxLength" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tbx_id.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_id.TabIndex" type="System.Int32, mscorlib">
+    <value>468</value>
+  </data>
+  <data name="&gt;&gt;tbx_id.Name" xml:space="preserve">
+    <value>tbx_id</value>
+  </data>
+  <data name="&gt;&gt;tbx_id.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_id.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_id.ZOrder" xml:space="preserve">
+    <value>77</value>
+  </data>
+  <data name="label26.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 72</value>
+  </data>
+  <data name="label26.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 15</value>
+  </data>
+  <data name="label26.TabIndex" type="System.Int32, mscorlib">
+    <value>469</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="&gt;&gt;label26.Name" xml:space="preserve">
+    <value>label26</value>
+  </data>
+  <data name="&gt;&gt;label26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label26.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label26.ZOrder" xml:space="preserve">
+    <value>78</value>
+  </data>
+  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 17</value>
+  </data>
+  <data name="label17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 15</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>526</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>设备：</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>79</value>
+  </data>
+  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1039, 232</value>
+  </data>
+  <data name="label16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>523</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>传输速率</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>80</value>
+  </data>
+  <data name="tbx_serverPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 627</value>
+  </data>
+  <data name="tbx_serverPort.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_serverPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_serverPort.TabIndex" type="System.Int32, mscorlib">
+    <value>570</value>
+  </data>
+  <data name="&gt;&gt;tbx_serverPort.Name" xml:space="preserve">
+    <value>tbx_serverPort</value>
+  </data>
+  <data name="&gt;&gt;tbx_serverPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_serverPort.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_serverPort.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="label46.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 632</value>
+  </data>
+  <data name="label46.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 15</value>
+  </data>
+  <data name="label46.TabIndex" type="System.Int32, mscorlib">
+    <value>571</value>
+  </data>
+  <data name="label46.Text" xml:space="preserve">
+    <value>服务器端口</value>
+  </data>
+  <data name="&gt;&gt;label46.Name" xml:space="preserve">
+    <value>label46</value>
+  </data>
+  <data name="&gt;&gt;label46.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label46.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label46.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="tbx_serverDomain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 627</value>
+  </data>
+  <data name="tbx_serverDomain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_serverDomain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_serverDomain.TabIndex" type="System.Int32, mscorlib">
+    <value>568</value>
+  </data>
+  <data name="&gt;&gt;tbx_serverDomain.Name" xml:space="preserve">
+    <value>tbx_serverDomain</value>
+  </data>
+  <data name="&gt;&gt;tbx_serverDomain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_serverDomain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_serverDomain.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="label47.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 632</value>
+  </data>
+  <data name="label47.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 15</value>
+  </data>
+  <data name="label47.TabIndex" type="System.Int32, mscorlib">
+    <value>569</value>
+  </data>
+  <data name="label47.Text" xml:space="preserve">
+    <value>服务器域名</value>
+  </data>
+  <data name="&gt;&gt;label47.Name" xml:space="preserve">
+    <value>label47</value>
+  </data>
+  <data name="&gt;&gt;label47.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label47.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label47.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="tbx_new_serverDomain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>780, 455</value>
+  </data>
+  <data name="tbx_new_serverDomain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_new_serverDomain.MaxLength" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="tbx_new_serverDomain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 25</value>
+  </data>
+  <data name="tbx_new_serverDomain.TabIndex" type="System.Int32, mscorlib">
+    <value>575</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_serverDomain.Name" xml:space="preserve">
+    <value>tbx_new_serverDomain</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_serverDomain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_serverDomain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_serverDomain.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="tbx_new_serverPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1116, 457</value>
+  </data>
+  <data name="tbx_new_serverPort.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_new_serverPort.MaxLength" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tbx_new_serverPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_new_serverPort.TabIndex" type="System.Int32, mscorlib">
+    <value>574</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_serverPort.Name" xml:space="preserve">
+    <value>tbx_new_serverPort</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_serverPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_serverPort.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_new_serverPort.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="label50.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1023, 459</value>
+  </data>
+  <data name="label50.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 15</value>
+  </data>
+  <data name="label50.TabIndex" type="System.Int32, mscorlib">
+    <value>573</value>
+  </data>
+  <data name="label50.Text" xml:space="preserve">
+    <value>服务器端口</value>
+  </data>
+  <data name="&gt;&gt;label50.Name" xml:space="preserve">
+    <value>label50</value>
+  </data>
+  <data name="&gt;&gt;label50.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label50.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label50.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="label51.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>686, 459</value>
+  </data>
+  <data name="label51.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 15</value>
+  </data>
+  <data name="label51.TabIndex" type="System.Int32, mscorlib">
+    <value>572</value>
+  </data>
+  <data name="label51.Text" xml:space="preserve">
+    <value>服务器域名</value>
+  </data>
+  <data name="&gt;&gt;label51.Name" xml:space="preserve">
+    <value>label51</value>
+  </data>
+  <data name="&gt;&gt;label51.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label51.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label51.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="tbx_swRevisionCC1310.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 119</value>
+  </data>
+  <data name="tbx_swRevisionCC1310.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_swRevisionCC1310.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_swRevisionCC1310.TabIndex" type="System.Int32, mscorlib">
+    <value>576</value>
+  </data>
+  <data name="&gt;&gt;tbx_swRevisionCC1310.Name" xml:space="preserve">
+    <value>tbx_swRevisionCC1310</value>
+  </data>
+  <data name="&gt;&gt;tbx_swRevisionCC1310.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_swRevisionCC1310.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_swRevisionCC1310.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 124</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>577</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>软件版本</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 347</value>
+  </data>
+  <data name="label9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>579</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>传输频段</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>340, 403</value>
+  </data>
+  <data name="label12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>581</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>转发策略</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 459</value>
+  </data>
+  <data name="label14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>583</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>时间来源</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label22.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 513</value>
+  </data>
+  <data name="label22.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 15</value>
+  </data>
+  <data name="label22.TabIndex" type="System.Int32, mscorlib">
+    <value>585</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>RAM L</value>
+  </data>
+  <data name="&gt;&gt;label22.Name" xml:space="preserve">
+    <value>label22</value>
+  </data>
+  <data name="&gt;&gt;label22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="tbx_ramL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 511</value>
+  </data>
+  <data name="tbx_ramL.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_ramL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_ramL.TabIndex" type="System.Int32, mscorlib">
+    <value>584</value>
+  </data>
+  <data name="&gt;&gt;tbx_ramL.Name" xml:space="preserve">
+    <value>tbx_ramL</value>
+  </data>
+  <data name="&gt;&gt;tbx_ramL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_ramL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_ramL.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="label24.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 570</value>
+  </data>
+  <data name="label24.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 15</value>
+  </data>
+  <data name="label24.TabIndex" type="System.Int32, mscorlib">
+    <value>587</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Flash H</value>
+  </data>
+  <data name="&gt;&gt;label24.Name" xml:space="preserve">
+    <value>label24</value>
+  </data>
+  <data name="&gt;&gt;label24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label24.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="tbx_flashH.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 567</value>
+  </data>
+  <data name="tbx_flashH.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_flashH.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_flashH.TabIndex" type="System.Int32, mscorlib">
+    <value>586</value>
+  </data>
+  <data name="&gt;&gt;tbx_flashH.Name" xml:space="preserve">
+    <value>tbx_flashH</value>
+  </data>
+  <data name="&gt;&gt;tbx_flashH.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_flashH.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_flashH.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="label25.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 570</value>
+  </data>
+  <data name="label25.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 15</value>
+  </data>
+  <data name="label25.TabIndex" type="System.Int32, mscorlib">
+    <value>589</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>Flash L</value>
+  </data>
+  <data name="&gt;&gt;label25.Name" xml:space="preserve">
+    <value>label25</value>
+  </data>
+  <data name="&gt;&gt;label25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label25.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label25.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="tbx_flashL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 567</value>
+  </data>
+  <data name="tbx_flashL.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="tbx_flashL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 25</value>
+  </data>
+  <data name="tbx_flashL.TabIndex" type="System.Int32, mscorlib">
+    <value>588</value>
+  </data>
+  <data name="&gt;&gt;tbx_flashL.Name" xml:space="preserve">
+    <value>tbx_flashL</value>
+  </data>
+  <data name="&gt;&gt;tbx_flashL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbx_flashL.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbx_flashL.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="cbx_new_channel.Items" xml:space="preserve">
+    <value>频段0</value>
+  </data>
+  <data name="cbx_new_channel.Items1" xml:space="preserve">
+    <value>频段1</value>
+  </data>
+  <data name="cbx_new_channel.Items2" xml:space="preserve">
+    <value>频段2</value>
+  </data>
+  <data name="cbx_new_channel.Items3" xml:space="preserve">
+    <value>频段3</value>
+  </data>
+  <data name="cbx_new_channel.Items4" xml:space="preserve">
+    <value>频段4</value>
+  </data>
+  <data name="cbx_new_channel.Items5" xml:space="preserve">
+    <value>频段5</value>
+  </data>
+  <data name="cbx_new_channel.Items6" xml:space="preserve">
+    <value>频段6</value>
+  </data>
+  <data name="cbx_new_channel.Items7" xml:space="preserve">
+    <value>频段7</value>
+  </data>
+  <data name="cbx_new_channel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>780, 287</value>
+  </data>
+  <data name="cbx_new_channel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="cbx_new_channel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 23</value>
+  </data>
+  <data name="cbx_new_channel.TabIndex" type="System.Int32, mscorlib">
+    <value>591</value>
+  </data>
+  <data name="&gt;&gt;cbx_new_channel.Name" xml:space="preserve">
+    <value>cbx_new_channel</value>
+  </data>
+  <data name="&gt;&gt;cbx_new_channel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_new_channel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_new_channel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label27.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>703, 291</value>
+  </data>
+  <data name="label27.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="label27.TabIndex" type="System.Int32, mscorlib">
+    <value>590</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>传输频段</value>
+  </data>
+  <data name="&gt;&gt;label27.Name" xml:space="preserve">
+    <value>label27</value>
+  </data>
+  <data name="&gt;&gt;label27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label27.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label27.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cbx_new_transPolicy.Items" xml:space="preserve">
+    <value>转发接收到所有数据</value>
+  </data>
+  <data name="cbx_new_transPolicy.Items1" xml:space="preserve">
+    <value>转发绑定设备的数据</value>
+  </data>
+  <data name="cbx_new_transPolicy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1116, 345</value>
+  </data>
+  <data name="cbx_new_transPolicy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="cbx_new_transPolicy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 23</value>
+  </data>
+  <data name="cbx_new_transPolicy.TabIndex" type="System.Int32, mscorlib">
+    <value>593</value>
+  </data>
+  <data name="&gt;&gt;cbx_new_transPolicy.Name" xml:space="preserve">
+    <value>cbx_new_transPolicy</value>
+  </data>
+  <data name="&gt;&gt;cbx_new_transPolicy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_new_transPolicy.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_new_transPolicy.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label28.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1039, 349</value>
+  </data>
+  <data name="label28.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="label28.TabIndex" type="System.Int32, mscorlib">
+    <value>592</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>转发策略</value>
+  </data>
+  <data name="&gt;&gt;label28.Name" xml:space="preserve">
+    <value>label28</value>
+  </data>
+  <data name="&gt;&gt;label28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label28.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label28.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label29.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label29.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>703, 405</value>
+  </data>
+  <data name="label29.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="label29.TabIndex" type="System.Int32, mscorlib">
+    <value>594</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>时间来源</value>
+  </data>
+  <data name="&gt;&gt;label29.Name" xml:space="preserve">
+    <value>label29</value>
+  </data>
+  <data name="&gt;&gt;label29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label29.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label29.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cbx_bps.Items" xml:space="preserve">
+    <value>50kbps2gfsk</value>
+  </data>
+  <data name="cbx_bps.Items1" xml:space="preserve">
+    <value>5kbpsLrm</value>
+  </data>
+  <data name="cbx_bps.Items2" xml:space="preserve">
+    <value>38p4kbpsWhiten</value>
+  </data>
+  <data name="cbx_bps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 286</value>
+  </data>
+  <data name="cbx_bps.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="cbx_bps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 23</value>
+  </data>
+  <data name="cbx_bps.TabIndex" type="System.Int32, mscorlib">
+    <value>595</value>
+  </data>
+  <data name="&gt;&gt;cbx_bps.Name" xml:space="preserve">
+    <value>cbx_bps</value>
+  </data>
+  <data name="&gt;&gt;cbx_bps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_bps.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_bps.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cbx_timeSrc.Items" xml:space="preserve">
+    <value>Sensor采集时间</value>
+  </data>
+  <data name="cbx_timeSrc.Items1" xml:space="preserve">
+    <value>网关的系统时间</value>
+  </data>
+  <data name="cbx_timeSrc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 455</value>
+  </data>
+  <data name="cbx_timeSrc.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="cbx_timeSrc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 23</value>
+  </data>
+  <data name="cbx_timeSrc.TabIndex" type="System.Int32, mscorlib">
+    <value>599</value>
+  </data>
+  <data name="&gt;&gt;cbx_timeSrc.Name" xml:space="preserve">
+    <value>cbx_timeSrc</value>
+  </data>
+  <data name="&gt;&gt;cbx_timeSrc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_timeSrc.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_timeSrc.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cbx_transPolicy.Items" xml:space="preserve">
+    <value>转发接收到所有数据</value>
+  </data>
+  <data name="cbx_transPolicy.Items1" xml:space="preserve">
+    <value>转发绑定设备的数据</value>
+  </data>
+  <data name="cbx_transPolicy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 401</value>
+  </data>
+  <data name="cbx_transPolicy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="cbx_transPolicy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 23</value>
+  </data>
+  <data name="cbx_transPolicy.TabIndex" type="System.Int32, mscorlib">
+    <value>600</value>
+  </data>
+  <data name="&gt;&gt;cbx_transPolicy.Name" xml:space="preserve">
+    <value>cbx_transPolicy</value>
+  </data>
+  <data name="&gt;&gt;cbx_transPolicy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_transPolicy.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_transPolicy.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cbx_channel.Items" xml:space="preserve">
+    <value>频段0</value>
+  </data>
+  <data name="cbx_channel.Items1" xml:space="preserve">
+    <value>频段1</value>
+  </data>
+  <data name="cbx_channel.Items2" xml:space="preserve">
+    <value>频段2</value>
+  </data>
+  <data name="cbx_channel.Items3" xml:space="preserve">
+    <value>频段3</value>
+  </data>
+  <data name="cbx_channel.Items4" xml:space="preserve">
+    <value>频段4</value>
+  </data>
+  <data name="cbx_channel.Items5" xml:space="preserve">
+    <value>频段5</value>
+  </data>
+  <data name="cbx_channel.Items6" xml:space="preserve">
+    <value>频段6</value>
+  </data>
+  <data name="cbx_channel.Items7" xml:space="preserve">
+    <value>频段7</value>
+  </data>
+  <data name="cbx_channel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 347</value>
+  </data>
+  <data name="cbx_channel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="cbx_channel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 23</value>
+  </data>
+  <data name="cbx_channel.TabIndex" type="System.Int32, mscorlib">
+    <value>601</value>
+  </data>
+  <data name="&gt;&gt;cbx_channel.Name" xml:space="preserve">
+    <value>cbx_channel</value>
+  </data>
+  <data name="&gt;&gt;cbx_channel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_channel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_channel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cbx_queueNo.Items" xml:space="preserve">
+    <value>全部存储区域</value>
+  </data>
+  <data name="cbx_queueNo.Items1" xml:space="preserve">
+    <value>RAM Queue L</value>
+  </data>
+  <data name="cbx_queueNo.Items2" xml:space="preserve">
+    <value>RAM Queue H</value>
+  </data>
+  <data name="cbx_queueNo.Items3" xml:space="preserve">
+    <value>Flash Queue L</value>
+  </data>
+  <data name="cbx_queueNo.Items4" xml:space="preserve">
+    <value>Flash Queue H</value>
+  </data>
+  <data name="cbx_queueNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>779, 626</value>
+  </data>
+  <data name="cbx_queueNo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="cbx_queueNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 23</value>
+  </data>
+  <data name="cbx_queueNo.TabIndex" type="System.Int32, mscorlib">
+    <value>602</value>
+  </data>
+  <data name="&gt;&gt;cbx_queueNo.Name" xml:space="preserve">
+    <value>cbx_queueNo</value>
+  </data>
+  <data name="&gt;&gt;cbx_queueNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbx_queueNo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbx_queueNo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label30.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label30.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>701, 628</value>
+  </data>
+  <data name="label30.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 15</value>
+  </data>
+  <data name="label30.TabIndex" type="System.Int32, mscorlib">
+    <value>603</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>存储区域</value>
+  </data>
+  <data name="&gt;&gt;label30.Name" xml:space="preserve">
+    <value>label30</value>
+  </data>
+  <data name="&gt;&gt;label30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label30.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label30.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>51</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1356, 879</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>MSP432报警器配置工具V2.2</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

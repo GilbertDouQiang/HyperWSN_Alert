@@ -1,0 +1,9 @@
+D:\Workspace\Visual_Workspace\dq\VS2010\432报警器信息修改\432报警器信息修改\bin\Debug\ZKSmartDeviceLibrary.dll
+D:\Workspace\Visual_Workspace\dq\VS2010\432报警器信息修改\432报警器信息修改\obj\Debug\HyperWSN_Alert.csprojResolveAssemblyReference.cache
+D:\Workspace\Visual_Workspace\dq\VS2010\432报警器信息修改\432报警器信息修改\obj\Debug\_432报警器信息修改.Form1.resources
+D:\Workspace\Visual_Workspace\dq\VS2010\432报警器信息修改\432报警器信息修改\obj\Debug\HyperWSN_Alert.csproj.GenerateResource.Cache
+D:\Workspace\Visual_Workspace\dq\VS2010\432报警器信息修改\432报警器信息修改\bin\Debug\HyperWSN_Alert.exe
+D:\Workspace\Visual_Workspace\dq\VS2010\432报警器信息修改\432报警器信息修改\bin\Debug\HyperWSN_Alert.pdb
+D:\Workspace\Visual_Workspace\dq\VS2010\432报警器信息修改\432报警器信息修改\obj\Debug\HyperWSN_Alert.Properties.Resources.resources
+D:\Workspace\Visual_Workspace\dq\VS2010\432报警器信息修改\432报警器信息修改\obj\Debug\HyperWSN_Alert.exe
+D:\Workspace\Visual_Workspace\dq\VS2010\432报警器信息修改\432报警器信息修改\obj\Debug\HyperWSN_Alert.pdb
